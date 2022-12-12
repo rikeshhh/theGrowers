@@ -1,0 +1,299 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  background-color: #D7D7CD;
+}
+body button {
+  background-color: black;
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  padding: 10px 10px;
+  border-bottom-left-radius: 14px;
+}
+body .card {
+  text-align: center;
+}
+body .card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+body header {
+  padding: 50px 50px;
+  display: flex;
+  position: relative;
+  width: 900px;
+}
+body header .logo h1 {
+  position: absolute;
+  font-size: 20px;
+}
+body header .midHeader {
+  width: 600px;
+  margin-left: 500px;
+}
+body header .midHeader ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body header .midHeader ul li {
+  list-style: none;
+  text-decoration: none;
+  padding: 20px;
+}
+body header .endHeader ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body header .endHeader ul li {
+  list-style: none;
+  text-decoration: none;
+  padding: 15px;
+}
+body .containerOne {
+  width: 1200px;
+  height: 501px;
+  margin: 50px 50px;
+  position: relative;
+}
+body .containerOne .content {
+  display: grid;
+  grid-template-rows: 400px;
+  grid-template-columns: 700px 300px 150px;
+  gap: 20px;
+}
+body .containerOne .content .rowOne {
+  margin-top: 20%;
+  margin-left: 20%;
+  transform: translate(-20%, -20%);
+}
+body .containerOne .content .image {
+  height: 501px;
+}
+body .containerOne .content .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+body .containerOne .content .rowTwo {
+  height: 501px;
+}
+body .containerOne .content .rowTwo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+body .trend {
+  width: 100%;
+  height: 202px;
+  background-color: #EBEEE3;
+  text-align: center;
+  word-spacing: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .trend .trendItems {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 142px);
+  grid-template-rows: 162px;
+  gap: 155px;
+  justify-content: center;
+  align-items: center;
+}
+body .trend .trendItems img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 50%;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+body .journey {
+  padding: 190px 100px 179px 190px;
+}
+body .journey .journeyContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .journey .journeyContent .jcOne {
+  height: 745px;
+  width: 564px;
+}
+body .journey .journeyContent .jcTwo {
+  height: 341px;
+  width: 263px;
+  border: 1px solid black;
+  margin-left: -150px;
+  border: 4px solid white;
+}
+body .journey .journeyContent .jcThree {
+  margin-left: 20px;
+  width: 500px;
+}
+body .journey .journeyContent img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+body .arrival {
+  padding: 100px 100px 100px 100px;
+}
+body .arrival .freshArrival {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 448px;
+  gap: 10px;
+  margin-bottom: 90px;
+}
+body .best {
+  padding: 100px 100px;
+}
+body .best .collection {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 448px;
+  gap: 20px;
+}
+body .best .collection img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+body .why {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 100px;
+}
+body .why .whyOne {
+  width: 550px;
+  height: 89px;
+}
+body .why .whyTwo {
+  width: 427px;
+  height: 611px;
+  box-shadow: 20px 10px black;
+  font-size: 40px;
+}
+body .why .whyTwo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+body .why .whyTwo li {
+  color: green;
+}
+body .popular {
+  padding: 100px 100px 100px 100px;
+}
+body .popular .items {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 448px;
+  gap: 10px;
+  margin-bottom: 90px;
+}
+body .latest {
+  padding: 100px 100px;
+}
+body .latest .blog {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 323px;
+  gap: 20px;
+}
+body .latest .blog img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+body .latest p {
+  font-size: 10px;
+  width: 400px;
+  text-align: left;
+}
+body .customer {
+  padding: 250px 200px;
+}
+body .customer .review {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+body .customer .review .plant {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  background-color: lightgreen;
+  border-radius: 50%;
+  box-shadow: 20px 20px 20px 20px lightgreen;
+}
+body .customer .review .plant img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+body .customer .review .comment {
+  width: 600px;
+  height: 300px;
+  padding: 20px 20px;
+}
+body .customer .review .comment h1 {
+  padding: 10px;
+}
+body .customer .review .comment i {
+  padding: 10px;
+  color: orange;
+}
+body .customer .review .comment span {
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-top-left-radius: 14px;
+}
+body .ship {
+  padding: 50px 50px;
+  height: 150px;
+  background-color: white;
+  text-align: center;
+}
+body .ship .ment {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 142px;
+}
+body .ship .ment h1 {
+  font-size: 20px;
+}
+body footer {
+  padding: 50px 50px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 30px;
+  text-align: center;
+}
+body footer .foot {
+  width: 400px;
+  height: 300px;
+  padding: 10px;
+}
+body footer .foot input {
+  width: 200px;
+  padding: 10px 10px;
+}
+body footer ul li {
+  list-style-type: none;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 15px;
+}

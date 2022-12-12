@@ -1,0 +1,14 @@
+{
+  "name": "thegrowers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch --no-source-map scss/index.scss scss/main.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.56.2"
+  }
+}
